@@ -779,6 +779,16 @@ strong {
     margin-bottom: 12px;
 }
 
+.project-title-link {
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition-smooth);
+}
+
+.project-title-link:hover {
+    color: var(--accent-indigo);
+}
+
 .project-description-v2 {
     font-size: 0.95rem;
     color: var(--text-secondary);
